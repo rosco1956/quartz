@@ -10,3 +10,5 @@ teaching, and psychotherapy.
 - [[How people learn]]
 - [[Base]]
 - [[Base2]]
+- [[daily notes]]
+- [[templates folder]]
