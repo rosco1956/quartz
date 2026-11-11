@@ -10,4 +10,4 @@ teaching, and psychotherapy.
 - [[How people learn]]
 - [[Base]]
 - [[Base2]]
-- [[Folder]]
+- [[File Notes]]
