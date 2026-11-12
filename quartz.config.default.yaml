@@ -7,7 +7,7 @@ configuration:
   prefetch: viewport
   analytics:
     provider: plausible
-  locale: en-US
+  locale: en-GB
   baseUrl: rosswell.net
   ignorePatterns:
     - private
@@ -104,7 +104,7 @@ plugins:
       theme: tokyo-night
       mode: both
   - source: "@quartz-community/explicit-publish"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/alias-redirects"
     enabled: true
   - source: "@quartz-community/favicon"
@@ -194,8 +194,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/rosco1956/quartz
+        Psychotherapy in Southampton : https://psychotherapysouthampton.co.uk
     layout:
       position: footer
       priority: 50
