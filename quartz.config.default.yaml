@@ -195,7 +195,7 @@ plugins:
     options:
       links:
         GitHub: https://github.com/rosco1956/quartz
-         
+        Psychotherapy in Southampton : https://psychotherapysouthampton.co.uk
     layout:
       position: footer
       priority: 50
