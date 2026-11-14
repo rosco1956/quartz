@@ -3,3 +3,5 @@ views:
     name: View
   - type: table
     name: Title
+  - type: table
+    name: View 2
