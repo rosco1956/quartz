@@ -42,9 +42,11 @@ views:
       - formula.section
       - formula.last_modified
     sort:
-      - property: formula.doc_type
-        direction: ASC
       - property: file.name
+        direction: DESC
+      - property: title
+        direction: ASC
+      - property: formula.doc_type
         direction: ASC
     columnSize:
       file.name: 185
