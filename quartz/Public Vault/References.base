@@ -1,29 +1,5 @@
-properties:
-  file.backlinks:
-    displayName: Year
-  note.Refernce Name:
-    displayName: Author
 views:
   - type: table
     name: View
     order:
-      - file.name
-      - title
-      - Refernce Name
-      - file.backlinks
-      - file.tags
-      - file.size
-    sort:
-      - property: file.backlinks
-        direction: DESC
-      - property: file.tags
-        direction: ASC
-      - property: file.name
-        direction: DESC
-    summaries: {}
-    columnSize:
-      file.backlinks: 123
-  - type: table
-    name: Title
-  - type: table
-    name: View 2
+      - idea
