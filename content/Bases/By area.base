@@ -1,0 +1,40 @@
+filters:
+  and:
+    - 'type == "permanent"'
+views:
+  - type: table
+    name: Engineering
+    filters:
+      and:
+        - 'areas.contains("engineering")'
+    order: [file.name, status, areas, source]
+  - type: table
+    name: Psychotherapy
+    filters:
+      and:
+        - 'areas.contains("psychotherapy")'
+    order: [file.name, status, areas, source]
+  - type: table
+    name: Education
+    filters:
+      and:
+        - 'areas.contains("education")'
+    order: [file.name, status, areas, source]
+  - type: table
+    name: Spirituality
+    filters:
+      and:
+        - 'areas.contains("spirituality")'
+    order: [file.name, status, areas, source]
+  - type: table
+    name: Expressive arts
+    filters:
+      and:
+        - 'areas.contains("expressive-arts")'
+    order: [file.name, status, areas, source]
+  - type: table
+    name: Gurdjieff
+    filters:
+      and:
+        - 'areas.contains("gurdjieff")'
+    order: [file.name, status, areas, source]

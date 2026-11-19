@@ -1,0 +1,8 @@
+filters:
+  and:
+    - 'type == "permanent"'
+    - 'areas.length > 1'
+views:
+  - type: table
+    name: Notes linking two or more areas
+    order: [file.name, areas, status]

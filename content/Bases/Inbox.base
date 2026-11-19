@@ -1,0 +1,13 @@
+filters:
+  and:
+    - 'type == "fleeting"'
+views:
+  - type: table
+    name: To process
+    order:
+      - file.name
+      - areas
+      - created
+    sort:
+      - property: created
+        direction: ASC

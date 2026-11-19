@@ -1,0 +1,7 @@
+filters:
+  and:
+    - 'file.inFolder("40 Compost")'
+views:
+  - type: table
+    name: Compost heap
+    order: [file.name, areas, created]

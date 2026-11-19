@@ -1,0 +1,19 @@
+filters:
+  and:
+    - 'type == "source"'
+views:
+  - type: table
+    name: All readings
+    order: [file.name, author, year, chapter, status, areas]
+  - type: table
+    name: Currently reading
+    filters:
+      and:
+        - 'status == "reading"'
+    order: [file.name, author, chapter]
+  - type: table
+    name: Gurdjieff
+    filters:
+      and:
+        - 'areas.contains("gurdjieff")'
+    order: [file.name, author, chapter, status]
